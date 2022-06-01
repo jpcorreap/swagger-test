@@ -1,9 +1,11 @@
 name: Update Swagger UI
 on:
-  schedule:
-    - cron:  '0 10 * * *'
+  push:
+    branches:
+      - main
   repository_dispatch:
     types: [update-swagger-ui]
+
 jobs:
   updateSwagger:
     runs-on: ubuntu-latest
