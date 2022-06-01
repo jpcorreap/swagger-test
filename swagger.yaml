@@ -6,7 +6,7 @@ info:
     \  For this sample, you can use the api key `special-key` to test the authorization\
     \ filters."
   version: "12.2.0"
-  title: "Swagger Petstore"
+  title: "Swagger Petstore Test from GitHub Pages"
   termsOfService: "https://juanpablocorrea.com/"
   contact:
     email: "apiteam@swagger.io"
